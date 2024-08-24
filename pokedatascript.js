@@ -1,1 +1,201 @@
-function _0x54d3(_0x548b4c,_0x1c3525){const _0x2967d9=_0x2967();return _0x54d3=function(_0x54d30b,_0xb11314){_0x54d30b=_0x54d30b-0x134;let _0x4524a8=_0x2967d9[_0x54d30b];return _0x4524a8;},_0x54d3(_0x548b4c,_0x1c3525);}function _0x2967(){const _0x4753f5=['8lhxmWd','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr><th>Ability1</th><th>Ability2</th><th>HiddenAbility</th></tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>','paginationControls','evYieldFilter','location','Speed_Base','key','toLowerCase','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pokemon-sprites\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','\x20Regular\x20Sprite\x22\x20class=\x22sprite-image\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','spawn-button','Type1','Enter','innerHTML','Attack_Base','spawn.html','Type2','includes','preventDefault','\x22\x20alt=\x22','HP_Base','ShinySprite','addEventListener','ability2Filter','forEach','rates-button','className','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','appendChild','nextPage','pageInfo','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>','84276cJIQDI','415943JYtrAI','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr><th>HP</th><th>Attack</th><th>Defense</th></tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>','typeFilter1','1090264tVAxfH','639342DJtziH','click','DOMContentLoaded','onclick','9pZLUhP','ability1Filter','input','\x20Shiny\x20Sprite\x22\x20class=\x22sprite-image\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pokemon-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2>','createElement','EV_Yield','Ability1','180koOAnt','index.html','getElementById','1qcQVlI','disabled','1355090AaDNjY','value','1859855jhyRgp','pokemon-card','RegSprite','div','HiddenAbility','rates.html','hiddenAbilityFilter','keydown','href','154NPBksS','Special_Defense_Base','Pokemon','length','432452sHYELV','typeFilter2'];_0x2967=function(){return _0x4753f5;};return _0x2967();}const _0x508873=_0x54d3;(function(_0x583bac,_0x2b3bed){const _0xb6c672=_0x54d3,_0x22781a=_0x583bac();while(!![]){try{const _0x1bc699=parseInt(_0xb6c672(0x144))/0x1*(-parseInt(_0xb6c672(0x155))/0x2)+-parseInt(_0xb6c672(0x136))/0x3+parseInt(_0xb6c672(0x157))/0x4*(parseInt(_0xb6c672(0x148))/0x5)+-parseInt(_0xb6c672(0x177))/0x6*(parseInt(_0xb6c672(0x151))/0x7)+parseInt(_0xb6c672(0x135))/0x8*(parseInt(_0xb6c672(0x13a))/0x9)+-parseInt(_0xb6c672(0x146))/0xa+-parseInt(_0xb6c672(0x178))/0xb*(-parseInt(_0xb6c672(0x141))/0xc);if(_0x1bc699===_0x2b3bed)break;else _0x22781a['push'](_0x22781a['shift']());}catch(_0x489d57){_0x22781a['push'](_0x22781a['shift']());}}}(_0x2967,0x8c077));import{pokemonData}from'./pokemondata.js';document['addEventListener'](_0x508873(0x138),()=>{const _0x29d368=_0x508873,_0x1094d2=document[_0x29d368(0x143)]('pokemonFilter'),_0x59ae4d=document[_0x29d368(0x143)](_0x29d368(0x134)),_0x35dc98=document[_0x29d368(0x143)](_0x29d368(0x156)),_0x2fbbc4=document[_0x29d368(0x143)](_0x29d368(0x13b)),_0xb1f8fb=document[_0x29d368(0x143)](_0x29d368(0x16e)),_0x429b07=document[_0x29d368(0x143)](_0x29d368(0x14e)),_0xe679d7=document[_0x29d368(0x143)](_0x29d368(0x15a)),_0x16e803=document['getElementById']('pokemonDataContainer'),_0x55011f=document[_0x29d368(0x143)](_0x29d368(0x159)),_0x61bfe=0x14;let _0x174d7c=0x1,_0x15325d=[...pokemonData];function _0x5b6f9d(_0x9f50c){const _0x38c029=_0x29d368;_0x16e803[_0x38c029(0x164)]='';const _0x101d13=(_0x174d7c-0x1)*_0x61bfe,_0x12eb76=_0x101d13+_0x61bfe,_0x245921=_0x9f50c['slice'](_0x101d13,_0x12eb76);_0x245921[_0x38c029(0x16f)](_0x5e4a57=>{const _0x194071=_0x38c029,_0x1e69db=document[_0x194071(0x13e)](_0x194071(0x14b));_0x1e69db[_0x194071(0x171)]=_0x194071(0x149),_0x1e69db[_0x194071(0x164)]=_0x194071(0x15f)+_0x5e4a57[_0x194071(0x14a)]+_0x194071(0x16a)+_0x5e4a57['Pokemon']+_0x194071(0x160)+_0x5e4a57[_0x194071(0x16c)]+'\x22\x20alt=\x22'+_0x5e4a57['Pokemon']+_0x194071(0x13d)+_0x5e4a57[_0x194071(0x153)]+'\x20('+_0x5e4a57['Form']+')</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr><th>Type1</th><th>Type2</th><th>EV\x20Yield</th></tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>'+_0x5e4a57[_0x194071(0x162)]+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>'+_0x5e4a57[_0x194071(0x167)]+_0x194071(0x176)+_0x5e4a57[_0x194071(0x13f)]+_0x194071(0x158)+_0x5e4a57[_0x194071(0x140)]+_0x194071(0x176)+_0x5e4a57['Ability2']+_0x194071(0x176)+_0x5e4a57[_0x194071(0x14c)]+_0x194071(0x179)+_0x5e4a57[_0x194071(0x16b)]+_0x194071(0x176)+_0x5e4a57[_0x194071(0x165)]+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>'+_0x5e4a57['Defense_Base']+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr><th>Special\x20Attack</th><th>Special\x20Defense</th><th>Speed</th></tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>'+_0x5e4a57['Special_Attack_Base']+_0x194071(0x176)+_0x5e4a57[_0x194071(0x152)]+_0x194071(0x176)+_0x5e4a57[_0x194071(0x15c)]+_0x194071(0x172),_0x16e803[_0x194071(0x173)](_0x1e69db);}),_0x120ca3(_0x9f50c[_0x38c029(0x154)]);}function _0x120ca3(_0x3f91d3){const _0x3fa522=_0x29d368,_0xbe3471=Math['ceil'](_0x3f91d3/_0x61bfe);document['getElementById'](_0x3fa522(0x175))['textContent']='Page\x20'+_0x174d7c+'\x20of\x20'+_0xbe3471;const _0x105745=document[_0x3fa522(0x143)]('prevPage'),_0x3d3992=document[_0x3fa522(0x143)](_0x3fa522(0x174));_0x105745[_0x3fa522(0x145)]=_0x174d7c===0x1,_0x3d3992[_0x3fa522(0x145)]=_0x174d7c>=_0xbe3471,_0x105745[_0x3fa522(0x139)]=()=>_0x217498(-0x1),_0x3d3992[_0x3fa522(0x139)]=()=>_0x217498(0x1);}function _0x217498(_0x3ecad2){_0x174d7c+=_0x3ecad2,_0x5b6f9d(_0x15325d);}function _0x263195(_0x3d7808){_0x174d7c=_0x3d7808,_0x5b6f9d(_0x15325d);}function _0x19ac38(){const _0x384acc=_0x29d368,_0x99f27b=_0x1094d2[_0x384acc(0x147)][_0x384acc(0x15e)](),_0x2083c5=_0x59ae4d['value'][_0x384acc(0x15e)](),_0x1483ef=_0x35dc98[_0x384acc(0x147)][_0x384acc(0x15e)](),_0x388b63=_0x2fbbc4['value'][_0x384acc(0x15e)](),_0x316dc3=_0xb1f8fb[_0x384acc(0x147)][_0x384acc(0x15e)](),_0x313a3c=_0x429b07[_0x384acc(0x147)][_0x384acc(0x15e)](),_0x587ef7=_0xe679d7[_0x384acc(0x147)][_0x384acc(0x15e)]();_0x15325d=pokemonData['filter'](_0x3b4420=>{const _0x4d64dd=_0x384acc,_0x274889=_0x3b4420[_0x4d64dd(0x153)][_0x4d64dd(0x15e)]()['includes'](_0x99f27b),_0xc30683=_0x2083c5===''||_0x3b4420[_0x4d64dd(0x162)][_0x4d64dd(0x15e)]()[_0x4d64dd(0x168)](_0x2083c5)||_0x3b4420[_0x4d64dd(0x167)][_0x4d64dd(0x15e)]()[_0x4d64dd(0x168)](_0x2083c5),_0x5b9fe5=_0x1483ef===''||_0x3b4420[_0x4d64dd(0x162)][_0x4d64dd(0x15e)]()[_0x4d64dd(0x168)](_0x1483ef)||_0x3b4420[_0x4d64dd(0x167)][_0x4d64dd(0x15e)]()['includes'](_0x1483ef),_0x2e5875=(_0x388b63===''||_0x3b4420[_0x4d64dd(0x140)][_0x4d64dd(0x15e)]()[_0x4d64dd(0x168)](_0x388b63))&&(_0x316dc3===''||_0x3b4420['Ability2'][_0x4d64dd(0x15e)]()['includes'](_0x316dc3))&&(_0x313a3c===''||_0x3b4420[_0x4d64dd(0x14c)][_0x4d64dd(0x15e)]()[_0x4d64dd(0x168)](_0x313a3c)),_0x56001b=_0x587ef7===''||_0x3b4420[_0x4d64dd(0x13f)][_0x4d64dd(0x15e)]()[_0x4d64dd(0x168)](_0x587ef7);return _0x274889&&_0xc30683&&_0x5b9fe5&&_0x2e5875&&_0x56001b;}),_0x174d7c=0x1,_0x5b6f9d(_0x15325d);}function _0x454f7d(_0x249fee){const _0x148c39=_0x29d368;_0x249fee[_0x148c39(0x15d)]===_0x148c39(0x163)&&_0x249fee[_0x148c39(0x169)]();}_0x1094d2[_0x29d368(0x16d)](_0x29d368(0x13c),_0x19ac38),_0x1094d2['addEventListener']('keydown',_0x454f7d),_0x59ae4d['addEventListener'](_0x29d368(0x13c),_0x19ac38),_0x59ae4d[_0x29d368(0x16d)](_0x29d368(0x14f),_0x454f7d),_0x35dc98[_0x29d368(0x16d)](_0x29d368(0x13c),_0x19ac38),_0x35dc98['addEventListener'](_0x29d368(0x14f),_0x454f7d),_0x2fbbc4[_0x29d368(0x16d)](_0x29d368(0x13c),_0x19ac38),_0x2fbbc4[_0x29d368(0x16d)]('keydown',_0x454f7d),_0xb1f8fb['addEventListener'](_0x29d368(0x13c),_0x19ac38),_0xb1f8fb[_0x29d368(0x16d)](_0x29d368(0x14f),_0x454f7d),_0x429b07['addEventListener'](_0x29d368(0x13c),_0x19ac38),_0x429b07[_0x29d368(0x16d)](_0x29d368(0x14f),_0x454f7d),_0xe679d7[_0x29d368(0x16d)](_0x29d368(0x13c),_0x19ac38),_0xe679d7[_0x29d368(0x16d)](_0x29d368(0x14f),_0x454f7d),_0x5b6f9d(pokemonData);}),document[_0x508873(0x16d)]('DOMContentLoaded',()=>{const _0x56ae87=_0x508873,_0x32a5ca=document['getElementById'](_0x56ae87(0x170)),_0x3bf384=document['getElementById'](_0x56ae87(0x161)),_0x29c244=document[_0x56ae87(0x143)]('back-button');_0x32a5ca&&_0x32a5ca[_0x56ae87(0x16d)](_0x56ae87(0x137),()=>{const _0x536d76=_0x56ae87;window[_0x536d76(0x15b)]['href']=_0x536d76(0x14d);}),_0x3bf384&&_0x3bf384[_0x56ae87(0x16d)](_0x56ae87(0x137),()=>{const _0xf300a2=_0x56ae87;window[_0xf300a2(0x15b)][_0xf300a2(0x150)]=_0xf300a2(0x166);}),_0x29c244&&_0x29c244['addEventListener'](_0x56ae87(0x137),()=>{const _0x10bc23=_0x56ae87;window[_0x10bc23(0x15b)]['href']=_0x10bc23(0x142);});});
+import { pokemonData } from './pokemondata.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+    const pokemonFilter = document.getElementById('pokemonFilter');
+    const typeFilter1 = document.getElementById('typeFilter1');
+    const typeFilter2 = document.getElementById('typeFilter2');
+    const ability1Filter = document.getElementById('ability1Filter');
+    const ability2Filter = document.getElementById('ability2Filter');
+    const hiddenAbilityFilter = document.getElementById('hiddenAbilityFilter');
+    const evYieldFilter = document.getElementById('evYieldFilter');
+    const pokemonDataContainer = document.getElementById('pokemonDataContainer');
+    const paginationControls = document.getElementById('paginationControls');
+
+    const formsPerPage = 20;
+    let currentPage = 1;
+    let filteredData = [...pokemonData];
+
+    function renderPokemonData(data) {
+        pokemonDataContainer.innerHTML = '';
+        const start = (currentPage - 1) * formsPerPage;
+        const end = start + formsPerPage;
+        const dataToShow = data.slice(start, end);
+
+        dataToShow.forEach(pokemon => {
+            const card = document.createElement('div');
+            card.className = 'pokemon-card';
+            card.innerHTML = `
+                <div class="pokemon-sprites">
+                    <img src="${pokemon.RegSprite}" alt="${pokemon.Pokemon} Regular Sprite" class="sprite-image">
+                    <img src="${pokemon.ShinySprite}" alt="${pokemon.Pokemon} Shiny Sprite" class="sprite-image">
+                </div>
+                <div class="pokemon-info">
+                    <h2>${pokemon.Pokemon} (${pokemon.Form})</h2>
+                    <table>
+                        <thead>
+                            <tr><th>Type1</th><th>Type2</th><th>EV Yield</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>${pokemon.Type1}</td>
+                                <td>${pokemon.Type2}</td>
+                                <td>${pokemon.EV_Yield}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr><th>Ability1</th><th>Ability2</th><th>HiddenAbility</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>${pokemon.Ability1}</td>
+                                <td>${pokemon.Ability2}</td>
+                                <td>${pokemon.HiddenAbility}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr><th>HP</th><th>Attack</th><th>Defense</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>${pokemon.HP_Base}</td>
+                                <td>${pokemon.Attack_Base}</td>
+                                <td>${pokemon.Defense_Base}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr><th>Special Attack</th><th>Special Defense</th><th>Speed</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>${pokemon.Special_Attack_Base}</td>
+                                <td>${pokemon.Special_Defense_Base}</td>
+                                <td>${pokemon.Speed_Base}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            `;
+            pokemonDataContainer.appendChild(card);
+        });
+
+        updatePaginationControls(data.length);
+    }
+
+    function updatePaginationControls(totalItems) {
+        const totalPages = Math.ceil(totalItems / formsPerPage);
+        document.getElementById('pageInfo').textContent = `Page ${currentPage} of ${totalPages}`;
+
+        const prevButton = document.getElementById('prevPage');
+        const nextButton = document.getElementById('nextPage');
+
+        prevButton.disabled = currentPage === 1;
+        nextButton.disabled = currentPage >= totalPages;
+
+        prevButton.onclick = () => changePage(-1);
+        nextButton.onclick = () => changePage(1);
+    }
+
+    function changePage(offset) {
+        currentPage += offset;
+        renderPokemonData(filteredData);
+    }
+
+    function goToPage(pageNumber) {
+        currentPage = pageNumber;
+        renderPokemonData(filteredData);
+    }
+
+    function filterPokemon() {
+        const filterValue = pokemonFilter.value.toLowerCase();
+        const type1Filter = typeFilter1.value.toLowerCase();
+        const type2Filter = typeFilter2.value.toLowerCase();
+        const ability1FilterValue = ability1Filter.value.toLowerCase();
+        const ability2FilterValue = ability2Filter.value.toLowerCase();
+        const hiddenAbilityFilterValue = hiddenAbilityFilter.value.toLowerCase();
+        const evYieldFilterValue = evYieldFilter.value.toLowerCase();
+
+        filteredData = pokemonData.filter(pokemon => {
+            const matchesPokemon = pokemon.Pokemon.toLowerCase().includes(filterValue);
+            const matchesType1 = type1Filter === '' || 
+                pokemon.Type1.toLowerCase().includes(type1Filter) || 
+                pokemon.Type2.toLowerCase().includes(type1Filter);
+            const matchesType2 = type2Filter === '' || 
+                pokemon.Type1.toLowerCase().includes(type2Filter) || 
+                pokemon.Type2.toLowerCase().includes(type2Filter);
+            const matchesAbilityFilters = 
+                (ability1FilterValue === '' || pokemon.Ability1.toLowerCase().includes(ability1FilterValue)) &&
+                (ability2FilterValue === '' || pokemon.Ability2.toLowerCase().includes(ability2FilterValue)) &&
+                (hiddenAbilityFilterValue === '' || pokemon.HiddenAbility.toLowerCase().includes(hiddenAbilityFilterValue));
+            const matchesEvYield = evYieldFilterValue === '' || pokemon.EV_Yield.toLowerCase().includes(evYieldFilterValue);
+
+            return matchesPokemon && matchesType1 && matchesType2 && matchesAbilityFilters && matchesEvYield;
+        });
+
+        currentPage = 1; // Reset to the first page
+        renderPokemonData(filteredData);
+    }
+
+    function preventFormSubmit(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+        }
+    }
+    pokemonFilter.addEventListener('input', filterPokemon);
+    pokemonFilter.addEventListener('keydown', preventFormSubmit);
+    typeFilter1.addEventListener('input', filterPokemon);
+    typeFilter1.addEventListener('keydown', preventFormSubmit);
+    typeFilter2.addEventListener('input', filterPokemon);
+    typeFilter2.addEventListener('keydown', preventFormSubmit);
+    ability1Filter.addEventListener('input', filterPokemon);
+    ability1Filter.addEventListener('keydown', preventFormSubmit);
+    ability2Filter.addEventListener('input', filterPokemon);
+    ability2Filter.addEventListener('keydown', preventFormSubmit);
+    hiddenAbilityFilter.addEventListener('input', filterPokemon);
+    hiddenAbilityFilter.addEventListener('keydown', preventFormSubmit);
+    evYieldFilter.addEventListener('input', filterPokemon);
+    evYieldFilter.addEventListener('keydown', preventFormSubmit);
+
+    renderPokemonData(pokemonData);
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const ratesButton = document.getElementById('rates-button');
+    const spawnButton = document.getElementById('spawn-button');
+    const pokeButton = document.getElementById('poke-button');
+    const mineButton = document.getElementById('mine-button');
+    const backButton = document.getElementById('back-button');
+  
+    if (ratesButton) {
+        ratesButton.addEventListener('click', () => {
+            window.location.href = 'rates.html';
+        });
+    }
+  
+    if (spawnButton) {
+      spawnButton.addEventListener('click', () => {
+          window.location.href = 'spawn.html';
+      });
+  }
+  
+  if (pokeButton) {
+    pokeButton.addEventListener('click', () => {
+        window.location.href = 'pokedata.html';
+    });
+  }
+  if (mineButton) {
+      mineButton.addEventListener('click', () => {
+          window.location.href = 'miningindex.html';
+      });
+    }
+    if (backButton) {
+        backButton.addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+    }
+  });

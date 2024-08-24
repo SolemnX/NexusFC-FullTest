@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rates and Calculations</title>
-    <header>Rates and Calculations</header>
     <link rel="stylesheet" href="ratesstyles.css">
+    <header id="main-header">
+        <div class="header-container">
+            <button class="header-button" id="back-button">Back to Home</button>
+            <button class="header-button" id="rates-button">Rates and Calculations</button>
+            <button class="header-button" id="spawn-button">Spawn Locator</button>
+            <button class="header-button" id="poke-button">Pokemon Data</button>
+            <button class="header-button" id="mine-button">Mining Guide</button>
+        </div>
+    </header>
 </head>
 <body>
     <h1 class="section-header"> Encounter Rates and Modifiers</h1>
@@ -67,6 +75,12 @@
                             <td>Held Item</td>
                             <td>Legendary Only</td>
                             <td>20%</td>
+                        </tr>
+                        <tr class="legendary">
+                            <td>Swarm</td>
+                            <td>Area Boost</td>
+                            <td>Legendary Only</td>
+                            <td>10%</td>
                         </tr>
                         <tr class="legendary">
                             <td>Event Map</td>
@@ -343,12 +357,6 @@
 
 
 <!------------------->
-<div>
-    <button id="back-button">Back to Home</button>
-    <button id="poke-button">Go to Pokemon Data</button>
-    <button id="spawn-button">Go to Spawn Locator</button>
-</div>
-
 
     <script src="ratesscript.js"></script>
 </body>

@@ -1,1 +1,128 @@
-const _0x5dcd10=_0x2df2;(function(_0x25974d,_0x2dcbfb){const _0x78f29f=_0x2df2,_0x4bda6b=_0x25974d();while(!![]){try{const _0x1e38b9=-parseInt(_0x78f29f(0x219))/0x1*(-parseInt(_0x78f29f(0x210))/0x2)+-parseInt(_0x78f29f(0x224))/0x3+-parseInt(_0x78f29f(0x203))/0x4*(-parseInt(_0x78f29f(0x215))/0x5)+parseInt(_0x78f29f(0x223))/0x6+parseInt(_0x78f29f(0x1fa))/0x7*(parseInt(_0x78f29f(0x1f5))/0x8)+-parseInt(_0x78f29f(0x202))/0x9+parseInt(_0x78f29f(0x20d))/0xa*(parseInt(_0x78f29f(0x1f7))/0xb);if(_0x1e38b9===_0x2dcbfb)break;else _0x4bda6b['push'](_0x4bda6b['shift']());}catch(_0x345dd1){_0x4bda6b['push'](_0x4bda6b['shift']());}}}(_0x3457,0xe69d8));import{pokemonData}from'./spawn.js';const rowsPerPage=0xc8;function _0x3457(){const _0x569a3d=['setAttribute','data-sort-direction','soloFilter','disabled','rarityFilter','addEventListener','42192CJvOUF','4870494iyefBE','forEach','nextPage','length','value','regionFilter','querySelector','asc','href','8383144pgOYBa','pokemonFilter','1230801ivOvME','includes','DOMContentLoaded','7OdtYOs','toUpperCase','appendChild','innerHTML','typeFilter','pageInfo','masterFilter','desc','13335354vXwSeX','292xJbVXX','location','textContent','createElement','getElementById','rates.html','click','rates-button','poke-button','index.html','70YsGWNa','toLowerCase','ceil','614MxMaDa','sort','rows','getAttribute','filter','115925xhRfXH','input','from','locationFilter','1691LKQajd','cells','pokedata.html','#pokemonTable\x20tbody'];_0x3457=function(){return _0x569a3d;};return _0x3457();}let currentPage=0x1;document[_0x5dcd10(0x207)](_0x5dcd10(0x200))[_0x5dcd10(0x222)](_0x5dcd10(0x216),filterTable),document[_0x5dcd10(0x207)](_0x5dcd10(0x229))[_0x5dcd10(0x222)](_0x5dcd10(0x216),filterTable),document['getElementById']('locationFilter')[_0x5dcd10(0x222)](_0x5dcd10(0x216),filterTable),document[_0x5dcd10(0x207)](_0x5dcd10(0x221))[_0x5dcd10(0x222)](_0x5dcd10(0x216),filterTable),document['getElementById'](_0x5dcd10(0x1fe))[_0x5dcd10(0x222)](_0x5dcd10(0x216),filterTable),document[_0x5dcd10(0x207)](_0x5dcd10(0x1f6))[_0x5dcd10(0x222)](_0x5dcd10(0x216),filterTable),document[_0x5dcd10(0x207)](_0x5dcd10(0x21f))[_0x5dcd10(0x222)]('input',filterTable);function filterTable(){const _0x961551=_0x5dcd10,_0x4fc158=document['getElementById']('masterFilter')['value'][_0x961551(0x1fb)](),_0x382199=[document[_0x961551(0x207)](_0x961551(0x229))['value'][_0x961551(0x1fb)](),document['getElementById'](_0x961551(0x218))[_0x961551(0x228)]['toUpperCase'](),document[_0x961551(0x207)](_0x961551(0x221))[_0x961551(0x228)][_0x961551(0x1fb)](),document['getElementById'](_0x961551(0x1fe))[_0x961551(0x228)][_0x961551(0x1fb)](),document['getElementById'](_0x961551(0x1f6))['value'][_0x961551(0x1fb)](),document[_0x961551(0x207)](_0x961551(0x21f))['value'][_0x961551(0x1fb)]()],_0x19c4b2=pokemonData[_0x961551(0x214)](_0x53beef=>{const _0xd435bc=_0x961551,_0x21c1a6=_0x4fc158===''||_0x53beef['join']('\x20')[_0xd435bc(0x1fb)]()[_0xd435bc(0x1f8)](_0x4fc158),_0x49471d=_0x382199['every']((_0xee6d35,_0x390ccf)=>_0xee6d35===''||_0x53beef[_0x390ccf]['toUpperCase']()[_0xd435bc(0x1f8)](_0xee6d35));return _0x21c1a6&&_0x49471d;});renderTable(_0x19c4b2);}function renderTable(_0x485bc6){const _0x3aef33=_0x5dcd10,_0x113a9b=document['querySelector']('#pokemonTable\x20tbody');_0x113a9b[_0x3aef33(0x1fd)]='';const _0x43c8e7=(currentPage-0x1)*rowsPerPage,_0x4057cd=_0x43c8e7+rowsPerPage,_0x3ed8a6=_0x485bc6['slice'](_0x43c8e7,_0x4057cd);_0x3ed8a6[_0x3aef33(0x225)](_0x55535e=>{const _0x7ad52b=_0x3aef33,_0x4c3c7b=document[_0x7ad52b(0x206)]('tr');_0x55535e[_0x7ad52b(0x225)](_0x5919e3=>{const _0x108d8b=_0x7ad52b,_0x3f4f84=document[_0x108d8b(0x206)]('td');_0x3f4f84[_0x108d8b(0x205)]=_0x5919e3,_0x4c3c7b[_0x108d8b(0x1fc)](_0x3f4f84);}),_0x113a9b['appendChild'](_0x4c3c7b);}),updatePaginationControls(_0x485bc6[_0x3aef33(0x227)]);}function _0x2df2(_0x2769a8,_0x3c51cc){const _0x34575f=_0x3457();return _0x2df2=function(_0x2df278,_0x2a3a2d){_0x2df278=_0x2df278-0x1f3;let _0x13fb1b=_0x34575f[_0x2df278];return _0x13fb1b;},_0x2df2(_0x2769a8,_0x3c51cc);}function updatePaginationControls(_0x5991b8){const _0x595466=_0x5dcd10,_0xbf481=Math[_0x595466(0x20f)](_0x5991b8/rowsPerPage);document[_0x595466(0x207)](_0x595466(0x1ff))[_0x595466(0x205)]='Page\x20'+currentPage+'\x20of\x20'+_0xbf481,document[_0x595466(0x207)]('prevPage')[_0x595466(0x220)]=currentPage===0x1,document['getElementById'](_0x595466(0x226))[_0x595466(0x220)]=currentPage>=_0xbf481;}function changePage(_0x354419){currentPage+=_0x354419,filterTable();}window['changePage']=changePage;function sortTable(_0x326552){const _0x10de4f=_0x5dcd10,_0x4fffbb=document[_0x10de4f(0x22a)](_0x10de4f(0x21c)),_0x240faa=Array[_0x10de4f(0x217)](_0x4fffbb[_0x10de4f(0x212)]),_0x273555=_0x4fffbb[_0x10de4f(0x213)](_0x10de4f(0x21e))===_0x10de4f(0x1f3)?_0x10de4f(0x201):_0x10de4f(0x1f3);_0x240faa[_0x10de4f(0x211)]((_0x12ee2d,_0x51ffe2)=>{const _0x15b5d0=_0x10de4f,_0xb824c1=_0x12ee2d[_0x15b5d0(0x21a)][_0x326552]['textContent'][_0x15b5d0(0x20e)](),_0x1e9eaa=_0x51ffe2[_0x15b5d0(0x21a)][_0x326552]['textContent'][_0x15b5d0(0x20e)]();return _0x273555===_0x15b5d0(0x1f3)?_0xb824c1['localeCompare'](_0x1e9eaa):_0x1e9eaa['localeCompare'](_0xb824c1);}),_0x240faa[_0x10de4f(0x225)](_0x1f7481=>_0x4fffbb[_0x10de4f(0x1fc)](_0x1f7481)),_0x4fffbb[_0x10de4f(0x21d)](_0x10de4f(0x21e),_0x273555);}filterTable(),document[_0x5dcd10(0x222)](_0x5dcd10(0x1f9),()=>{const _0x56b610=_0x5dcd10,_0x1e16bc=document[_0x56b610(0x207)](_0x56b610(0x20a)),_0xc6fe9b=document[_0x56b610(0x207)]('back-button'),_0x12a2b6=document[_0x56b610(0x207)](_0x56b610(0x20b));_0x1e16bc&&_0x1e16bc['addEventListener'](_0x56b610(0x209),()=>{const _0x20bae1=_0x56b610;window[_0x20bae1(0x204)][_0x20bae1(0x1f4)]=_0x20bae1(0x208);}),_0xc6fe9b&&_0xc6fe9b[_0x56b610(0x222)](_0x56b610(0x209),()=>{const _0x3ed83f=_0x56b610;window['location'][_0x3ed83f(0x1f4)]=_0x3ed83f(0x20c);}),_0x12a2b6&&_0x12a2b6[_0x56b610(0x222)]('click',()=>{const _0x1b9e19=_0x56b610;window[_0x1b9e19(0x204)]['href']=_0x1b9e19(0x21b);});});
+import { pokemonData } from './spawn.js';
+
+const rowsPerPage = 200;
+let currentPage = 1;
+
+document.getElementById('masterFilter').addEventListener('input', filterTable);
+document.getElementById('regionFilter').addEventListener('input', filterTable);
+document.getElementById('locationFilter').addEventListener('input', filterTable);
+document.getElementById('rarityFilter').addEventListener('input', filterTable);
+document.getElementById('typeFilter').addEventListener('input', filterTable);
+document.getElementById('pokemonFilter').addEventListener('input', filterTable);
+document.getElementById('soloFilter').addEventListener('input', filterTable);
+
+function filterTable() {
+    const masterFilterValue = document.getElementById('masterFilter').value.toUpperCase();
+    const filterValues = [
+        document.getElementById('regionFilter').value.toUpperCase(),
+        document.getElementById('locationFilter').value.toUpperCase(),
+        document.getElementById('rarityFilter').value.toUpperCase(),
+        document.getElementById('typeFilter').value.toUpperCase(),
+        document.getElementById('pokemonFilter').value.toUpperCase(),
+        document.getElementById('soloFilter').value.toUpperCase()
+    ];
+
+    const filteredData = pokemonData.filter(row => {
+        const matchesMasterFilter = masterFilterValue === '' || row.join(' ').toUpperCase().includes(masterFilterValue);
+        const matchesIndividualFilters = filterValues.every((filter, index) => filter === '' || row[index].toUpperCase().includes(filter));
+        return matchesMasterFilter && matchesIndividualFilters;
+    });
+
+    renderTable(filteredData);
+}
+
+function renderTable(data) {
+    const tableBody = document.querySelector('#pokemonTable tbody');
+    tableBody.innerHTML = ''; // Clear previous results
+
+    const start = (currentPage - 1) * rowsPerPage;
+    const end = start + rowsPerPage;
+    const pageData = data.slice(start, end);
+
+    pageData.forEach(row => {
+        const rowElement = document.createElement('tr');
+        row.forEach(cell => {
+            const cellElement = document.createElement('td');
+            cellElement.textContent = cell;
+            rowElement.appendChild(cellElement);
+        });
+        tableBody.appendChild(rowElement);
+    });
+
+    updatePaginationControls(data.length);
+}
+
+function updatePaginationControls(totalRows) {
+    const totalPages = Math.ceil(totalRows / rowsPerPage);
+    document.getElementById('pageInfo').textContent = `Page ${currentPage} of ${totalPages}`;
+    document.getElementById('prevPage').disabled = currentPage === 1;
+    document.getElementById('nextPage').disabled = currentPage >= totalPages;
+}
+
+function changePage(delta) {
+    currentPage += delta;
+    filterTable();
+}
+
+// Bind changePage to the window object to make it globally accessible
+window.changePage = changePage;
+
+function sortTable(columnIndex) {
+    const tableBody = document.querySelector('#pokemonTable tbody');
+    const rows = Array.from(tableBody.rows);
+    const direction = tableBody.getAttribute('data-sort-direction') === 'asc' ? 'desc' : 'asc';
+
+    rows.sort((a, b) => {
+        const aText = a.cells[columnIndex].textContent.toLowerCase();
+        const bText = b.cells[columnIndex].textContent.toLowerCase();
+        return direction === 'asc' ? aText.localeCompare(bText) : bText.localeCompare(aText);
+    });
+
+    rows.forEach(row => tableBody.appendChild(row));
+    tableBody.setAttribute('data-sort-direction', direction);
+}
+
+// Initial render
+filterTable();
+
+
+
+
+
+//Do not modify below this thanks!
+
+document.addEventListener('DOMContentLoaded', () => {
+    const ratesButton = document.getElementById('rates-button');
+    const spawnButton = document.getElementById('spawn-button');
+    const pokeButton = document.getElementById('poke-button');
+    const mineButton = document.getElementById('mine-button');
+    const backButton = document.getElementById('back-button');
+  
+    if (ratesButton) {
+        ratesButton.addEventListener('click', () => {
+            window.location.href = 'rates.html';
+        });
+    }
+  
+    if (spawnButton) {
+      spawnButton.addEventListener('click', () => {
+          window.location.href = 'spawn.html';
+      });
+  }
+  
+  if (pokeButton) {
+    pokeButton.addEventListener('click', () => {
+        window.location.href = 'pokedata.html';
+    });
+  }
+  if (mineButton) {
+      mineButton.addEventListener('click', () => {
+          window.location.href = 'miningindex.html';
+      });
+    }
+    if (backButton) {
+        backButton.addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+    }
+  });

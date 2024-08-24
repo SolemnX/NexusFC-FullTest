@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mining Guide</title>
+    <link rel="stylesheet" href="miningstyles.css">
+</head>
+<body>
+    <div class="container">
+        <header id= 'main-header' class="header">
+            <div class="header-container">
+                <button class="header-button" id="back-button">Back to Home</button>
+                <button class="header-button" id="rates-button">Rates and Calculations</button>
+                <button class="header-button" id="spawn-button">Spawn Locator</button>
+                <button class="header-button" id="poke-button">Pokemon Data</button>
+                <button class="header-button" id="mine-button">Mining Guide</button>
+            </div>
+        </header>
+
+        <main>
+            <h1>Mining Guide</h1>
+            <section id="mining-table">
+                <h2>Mining Table</h2>
+                <table class="shiny-table">
+                    <thead class="shiny-head">
+                        <tr>
+                            <th>Name</th>
+                            <th>Level Required</th>
+                            <th>Gem Stone</th>
+                            <th>Min Exp</th>
+                            <th>Max Exp</th>
+                            <th>Price</th>
+                            <th>Respawn</th>
+                        </tr>
+                    </thead>
+                    <tbody id="mining-table-body">
+                        <!-- Table rows will be dynamically inserted here -->
+                    </tbody>
+                </table>
+            </section>
+            <section id="two-tables-section">
+                <div class="two-table-container">
+                    <h2>Pickaxes</h2>
+                    <table class="two-data-table">
+                        <thead>
+                            <tr>
+                                <th>Pickaxe</th>
+                                <th>Level Required</th>
+                                <th>Location</th>
+                                <th>Double Gem Chance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Old Pickaxe</td>
+                                <td>1</td>
+                                <td>Bought from Mining Guru at Mt Moon for 5k</td>
+                                <td>0%</td>
+                            </tr>
+                            <tr>
+                                <td>Good Pickaxe</td>
+                                <td>5</td>
+                                <td>Bought from Turtle Cove at Mt Moon for 12k</td>
+                                <td>1%</td>
+                            </tr>
+                            <tr>
+                                <td>Super Pickaxe</td>
+                                <td>20</td>
+                                <td>Bought from Cerulean Cave at Mt Moon for 35k</td>
+                                <td>5%</td>
+                            </tr>
+                            <tr>
+                                <td>Steel Pickaxe</td>
+                                <td>50</td>
+                                <td>Crafted: Metal Coat + Steel Wire + Super Pickaxe</td>
+                                <td>10%</td>
+                            </tr>
+                            <tr>
+                                <td>Master Pickaxe</td>
+                                <td>100</td>
+                                <td>Crafted: Master Ball + Steel Pickaxe</td>
+                                <td>15%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            
+                <div class="two-table-container">
+                    <h2>Vendors</h2>
+                    <table class="two-data-table">
+                        <thead>
+                            <tr>
+                                <th>Vendor Region</th>
+                                <th>Location 1</th>
+                                <th>Location 2</th>
+                                <th>Location 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Kanto</td>
+                                <td>Pewter City</td>
+                                <td>Cinnabar Island</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Johto</td>
+                                <td>Cianwood City</td>
+                                <td>Blackthorn City</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Hoenn</td>
+                                <td>Rustboro City</td>
+                                <td>Mauville City</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Sinnoh</td>
+                                <td>Oreburgh City</td>
+                                <td>Veilstone City</td>
+                                <td>Survival Area</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="price-calculator-section">
+                <h2>Mining Price Calculator</h2>
+                <div class="calculator">
+                    <div class="input-group">
+                        <h3>Input Gemstone Quantities</h3>
+                        <div id="gemstone-inputs"></div>
+                        <button id="calculate-total-value">Calculate Total Value</button>
+                        <label for="total-value">Total Money Value:</label>
+                        <input type="text" id="total-value" readonly>
+                    </div>
+                    
+                    <div class="result-group">
+                        <h3>Required Gemstones</h3>
+                        <label for="desired-value">Desired Money Value:</label>
+                        <input type="number" id="desired-value">
+                        <button id="calculate-gemstones">Calculate Gemstones Needed</button>
+                        <div id="gemstone-results">
+                            <!-- Pre-created fields for each gemstone will go here -->
+                        </div>
+                    
+                    </div>
+                </div>
+            </section>
+            <div class= "mid-section">
+     <!-- Mining Exp Section -->
+     <section id="mining-exp-section">
+        <h2>Mining Exp Calculator</h2>
+        <div class="exp-calculator">
+            <div class="input-group">
+                <label for="start-level">Starting Level:</label>
+                <input type="number" id="start-level" min="1" max="100">
+                <label for="end-level">Ending Level:</label>
+                <input type="number" id="end-level" min="1" max="100">
+                <button id="calculate-exp">Calculate</button>
+            </div>
+
+            <div class="result-group">
+                <h3>Experience Results</h3>
+                <p>Total Experience Needed:</p>
+                <input type="text" id="exp-amount" readonly>
+                <div id="rock-requirements">
+                    <h4>Rocks Required</h4>
+                    <div id="rock-list">
+                        <!-- Pre-created fields for each rock with min and max values -->
+                        <div>
+                            <label class="redlabel">Red Rock</label>
+                            <div class="rock-values">
+                                <input type="text" class="min-value" readonly>
+                                <span>Minimum Number Needed</span>
+                                <input type="text" class="max-value" readonly>
+                                <span>Maximum Number Needed</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="bluelabel">Blue Rock</label>
+                            <div class="rock-values">
+                                <input type="text" class="min-value" readonly>
+                                <span>Minimum Number Needed</span>
+                                <input type="text" class="max-value" readonly>
+                                <span>Maximum Number Needed</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="greenlabel">Green Rock</label>
+                            <div class="rock-values">
+                                <input type="text" class="min-value" readonly>
+                                <span>Minimum Number Needed</span>
+                                <input type="text" class="max-value" readonly>
+                                <span>Maximum Number Needed</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="prismlabel">Prism Rock</label>
+                            <div class="rock-values">
+                                <input type="text" class="min-value" readonly>
+                                <span>Minimum Number Needed</span>
+                                <input type="text" class="max-value" readonly>
+                                <span>Maximum Number Needed</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="palelabel">Pale Rock</label>
+                            <div class="rock-values">
+                                <input type="text" class="min-value" readonly>
+                                <span>Minimum Number Needed</span>
+                                <input type="text" class="max-value" readonly>
+                                <span>Maximum Number Needed</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="darklabel">Dark Rock</label>
+                            <div class="rock-values">
+                                <input type="text" class="min-value" readonly>
+                                <span>Minimum Number Needed</span>
+                                <input type="text" class="max-value" readonly>
+                                <span>Maximum Number Needed</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="lavalabel">Lava Rock</label>
+                            <div class="rock-values">
+                                <input type="text" class="min-value" readonly>
+                                <span>Minimum Number Needed</span>
+                                <input type="text" class="max-value" readonly>
+                                <span>Maximum Number Needed</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="rainbowlabel">Rainbow Rock</label>
+                            <div class="rock-values">
+                                <input type="text" class="min-value" readonly>
+                                <span>Minimum Number Needed</span>
+                                <input type="text" class="max-value" readonly>
+                                <span>Maximum Number Needed</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="goldlabel">Gold Rock</label>
+                            <div class="rock-values">
+                                <input type="text" class="min-value" readonly>
+                                <span>Minimum Number Needed</span>
+                                <input type="text" class="max-value" readonly>
+                                <span>Maximum Number Needed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="minepokemon">
+        <h2>Pokémon Rarity Table</h2>
+        <table class="pokemon-table">
+            <thead>
+                <tr>
+                    <th>Rarity</th>
+                    <th>Pokémon</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Common Row -->
+                <tr>
+                    <td>Common</td>
+                    <td class="pokemon-row">
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/geodude-alolan.png" alt="Geodude">
+                            <span>Geodude</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/graveler.png" alt="Graveler">
+                            <span>Graveler</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/golem.png" alt="Golem">
+                            <span>Golem</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/diglett.png" alt="Diglett">
+                            <span>Diglett</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/dugtrio.png" alt="Dugtrio">
+                            <span>Dugtrio</span>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Uncommon Row -->
+                <tr>
+                    <td>Uncommon</td>
+                    <td class="pokemon-row">
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/sandshrew.png" alt="Sandshrew">
+                            <span>Sandshrew</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/sandslash.png" alt="Sandslash">
+                            <span>Sandslash</span>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Rare Row -->
+                <tr>
+                    <td>Rare</td>
+                    <td class="pokemon-row">
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/dwebble.png" alt="Dwebble">
+                            <span>Dwebble</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/magcargo.png" alt="Magcargo">
+                            <span>Magcargo</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/marowak.png" alt="Marowak">
+                            <span>Marowak</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/aron.png" alt="Aron">
+                            <span>Aron</span>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Very Rare Row -->
+                <tr>
+                    <td>Very Rare</td>
+                    <td class="pokemon-row">
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/carbink.png" alt="Carbink">
+                            <span>Carbink</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/baltoy.png" alt="Baltoy">
+                            <span>Baltoy</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/nosepass.png" alt="Nosepass">
+                            <span>Nosepass</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/lunatone.png" alt="Lunatone">
+                            <span>Lunatone</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/solrock.png" alt="Solrock">
+                            <span>Solrock</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/phanpy.png" alt="Phanpy">
+                            <span>Phanpy</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/drilbur.png" alt="Drilbur">
+                            <span>Drilbur</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/trapinch.png" alt="Trapinch">
+                            <span>Trapinch</span>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Extremely Rare Row -->
+                <tr>
+                    <td>Extremely Rare</td>
+                    <td class="pokemon-row">
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/onix.png" alt="Onix">
+                            <span>Onix</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/machamp.png" alt="Machamp">
+                            <span>Machamp</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/rhydon.png" alt="Rhydon">
+                            <span>Rhydon</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/bonsly.png" alt="Bonsly">
+                            <span>Bonsly</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/hippopotas.png" alt="Hippopotas">
+                            <span>Hippopotas</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/sandile.png" alt="Sandile">
+                            <span>Sandile</span>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Legendary Row -->
+                <tr>
+                    <td>Legendary</td>
+                    <td class="pokemon-row">
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/regirock.png" alt="Regirock">
+                            <span>Regirock</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/regice.png" alt="Regice">
+                            <span>Regice</span>
+                        </div>
+                        <div class="pokemon">
+                            <img src="https://img.pokemondb.net/sprites/home/normal/registeel.png" alt="Registeel">
+                            <span>Registeel</span>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    
+        </section>
+       </div>
+
+    <section id="Mining Encounter Rates">
+        <div class="modifier-section">
+            <h2>Mining Encounter Rates</h2>
+            <div class="checkbox-container">
+                <div class="box select-one">
+                    <h3>Select 1</h3>
+                    <input type="checkbox" id="shiny-charm-checkbox"> Shiny Charm / Egg<br>
+                    <input type="checkbox" id="rare-charm-checkbox"> Rare Charm<br>
+                    <input type="checkbox" id="hunter-charm-checkbox"> Hunter Charm<br>
+                </div>
+                <div class="box select-all">
+                    <h3>Select All That Apply</h3>
+                    <input type="checkbox" id="honey-checkbox"> Honey<br>
+                    <input type="checkbox" id="legend2-checkbox"> Legend x2<br>
+                    <input type="checkbox" id="shiny-lure-checkbox"> Shiny Lure<br>
+                    <input type="checkbox" id="shiny2-checkbox"> Shiny x2
+                </div>
+            </div>
+
+            <!-- Modifier Table -->
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th colspan="2">Non Dark or Lava Gemstones</th>
+                            <th colspan="2">Dark or Lava Gemstones</th>
+                        </tr>
+                        <tr>
+                            <th>Category</th>
+                            <th>Base Rates</th>
+                            <th>Shiny</th>
+                            <th>Base Rates</th>
+                            <th>Shiny</th>
+                        </tr>
+                    </thead>
+                    <div class ='mining-encounter-table'>
+                    <tbody id="data-table">
+                        <!-- Modifier Data -->
+                        <tr>
+                            <td><input type="text" value="Common" class="cathead" readonly></td>
+                            <td><input type="number" value="1" id="common-base" class="no-arrow" readonly></td>
+                            <td><input type="number" value="8192" id="common-shiny" class="no-arrow" readonly></td>
+                            <td><input type="number" value="1" id="common-dlbase" class="no-arrow" readonly></td>
+                            <td><input type="number" value="8192" id="common-dlshiny" class="no-arrow" readonly></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Uncommon" class="cathead" readonly></td>
+                            <td><input type="number" value="6" id="uncommon-base" class="no-arrow" readonly></td>
+                            <td><input type="number" value="49152" id="uncommon-shiny" class="no-arrow" readonly></td>
+                            <td><input type="number" value="4" id="uncommon-dlbase" class="no-arrow" readonly></td>
+                            <td><input type="number" value="32768" id="uncommon-dlshiny" class="no-arrow" readonly></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Rare" class="cathead" readonly></td>
+                            <td><input type="number" value="48" id="rare-base" class="no-arrow" readonly></td>
+                            <td><input type="number" value="393216" id="rare-shiny" class="no-arrow" readonly></td>
+                            <td><input type="number" value="30" id="rare-dlbase" class="no-arrow" readonly></td>
+                            <td><input type="number" value="245760" id="rare-dlshiny" class="no-arrow" readonly></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Very Rare" class="cathead" readonly></td>
+                            <td><input type="number" value="480" id="veryRare-base" class="no-arrow" readonly></td>
+                            <td><input type="number" value="3932160" id="veryRare-shiny" class="no-arrow" readonly></td>
+                            <td><input type="number" value="300" id="veryRare-dlbase" class="no-arrow" readonly></td>
+                            <td><input type="number" value="2457600" id="veryRare-dlshiny" class="no-arrow" readonly></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Extremely Rare" class="cathead" readonly></td>
+                            <td><input type="number" value="4000" id="extremelyRare-base" class="no-arrow" readonly></td>
+                            <td><input type="number" value="32768000" id="extremelyRare-shiny" class="no-arrow" readonly></td>
+                            <td><input type="number" value="2500" id="extremelyRare-dlbase" class="no-arrow" readonly></td>
+                            <td><input type="number" value="20480000" id="extremelyRare-dlshiny" class="no-arrow" readonly></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Legendary" class="cathead" readonly></td>
+                            <td><input type="number" value="60000" id="legendary-base" class="no-arrow" readonly></td>
+                            <td><input type="number" value="491520000" id="legendary-shiny" class="no-arrow" readonly></td>
+                            <td><input type="number" value="37500" id="legendary-dlbase" class="no-arrow" readonly></td>
+                            <td><input type="number" value="307200000" id="legendary-dlshiny" class="no-arrow" readonly></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="Gold Rush Legendary" class="cathead" readonly></td>
+                            <td><input type="number" value="30000" id="GoldRushLegendary-base" class="no-arrow" readonly></td>
+                            <td><input type="number" value="245760000" id="GoldRushLegendary-shiny" class="no-arrow" readonly></td>
+                            <td><input type="number" value="18750" id="GoldRushLegendary-dlbase" class="no-arrow" readonly></td>
+                            <td><input type="number" value="153600000" id="GoldRushLegendary-dlshiny" class="no-arrow" readonly></td>
+                        </tr>
+                    </tbody>
+                </div>
+                </table>
+            </div>
+        </div>
+    </section>
+            <section id= "LRR-section">
+            <h2>Location, Region, and Rock Filter Table</h2>
+        
+            <div class="filter-container">
+                <label for="location-filter">Location:</label>
+                <input type="text" id="location-filter" placeholder="Filter by Location">
+                
+                <label for="region-filter">Region:</label>
+                <input type="text" id="region-filter" placeholder="Filter by Region">
+        
+                <label for="goldrush-filter">Gold Rush Eligible:</label>
+                <input type="text" id="goldrush-filter" placeholder="Filter by Gold Rush Eligible Location">
+                
+                
+                <label for="rock-filter">Rock:</label>
+                <input type="text" id="rock-filter" placeholder="Filter by Rock">
+            </div>
+        
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Region</th>
+                        <th>Gold Rush Eligible</th>
+                        <th>Rock</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <!-- Table rows will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="miningscript.js"></script>
+</body>
+</html>
