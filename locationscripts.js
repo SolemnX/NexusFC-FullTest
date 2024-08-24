@@ -1,5 +1,5 @@
 
-import {Data2 } from './fulllspawn.js';
+import {Data2 } from './fullspawn.js';
 import {data } from './evlocations.js';
 import {drops } from './dropslocations.js';
 
