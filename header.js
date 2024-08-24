@@ -7,47 +7,56 @@ document.addEventListener('DOMContentLoaded', () => {
             // Add header HTML
             headerContainer.innerHTML = `
                 <style>
-                    #main-header {
-                        width: 100%;
-                        background-color: #0077b6;
-                        padding: 15px 0;
-                        color: white;
-                        text-align: center;
-                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                    }
+                    /* Header Styling */
+#main-header {
+    background-color: #f8f9fa; /* Light background color for the header */
+    padding: 10px 0; /* Vertical padding for header */
+    border-bottom: 1px solid #dee2e6; /* Bottom border for separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
 
-                    .header-container {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                    }
+/* Container for buttons */
+.header-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 15px; /* Space between buttons */
+}
 
-                    .header-nav {
-                        display: flex;
-                        gap: 15px;
-                        margin-top: 10px;
-                    }
+/* General button styling for header buttons */
+.header-button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Top and bottom padding, left and right padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+}
 
-                    .header-button {
-                        background-color: #007bff;
-                        color: white;
-                        border: none;
-                        padding: 10px 20px;
-                        border-radius: 5px;
-                        cursor: pointer;
-                        font-size: 16px;
-                        transition: background-color 0.3s, transform 0.2s;
-                    }
+/* Button hover and active states */
+.header-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
 
-                    .header-button:hover {
-                        background-color: #0056b3;
-                        transform: scale(1.05);
-                    }
+.header-button:active {
+    background-color: #004085; /* Even darker shade when button is pressed */
+    transform: scale(0.95); /* Slightly shrink button when pressed */
+}
 
-                    .header-button:active {
-                        background-color: #004085;
-                        transform: scale(0.95);
-                    }
+/* Specific styling for back button */
+#back-button {
+    background-color: #28a745; /* Different color for the back button */
+}
+
+#back-button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+#back-button:active {
+    background-color: #1e7e34; /* Even darker shade when button is pressed */
+}
                 </style>
                 <header id="main-header">
                     <div class="header-container">
