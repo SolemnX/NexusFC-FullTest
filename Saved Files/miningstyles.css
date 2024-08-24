@@ -1,0 +1,612 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Header Styles */
+body h1 {
+    font-size: 42px;
+    color: #0077b6;
+    margin: 0;
+    text-align: center;
+}
+
+/* Section Styles */
+section h2 {
+    font-size: 28px;
+    color: #0077b6;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+.shiny-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.shiny-head th {
+    background-color: #0077b6;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.shiny-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.shiny-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.shiny-table tr:hover {
+    background-color: #f1f7ff;
+}
+
+.mining-table tr, td{
+    text-align: center;
+}
+
+.input-group, .result-group {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[readonly] {
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group, .result-group {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.input-group {
+    border-right: 40px;
+    margin-bottom: 40px;
+}
+
+.exp-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#exp-results {
+    margin-top: 20px;
+}
+
+#exp-results p, #exp-results ul {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#exp-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#exp-results li {
+    margin: 5px 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#rock-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#rock-list div {
+    margin: 10px 0;
+}
+
+#rock-list label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.rock-values {
+    display: flex;
+    align-items: center;
+}
+
+.rock-values input {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.rock-values span {
+    margin-right: 20px;
+}
+.checkbox-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    width: 100%; /* Full width of the parent element */
+    align-items: center; /* Center items vertically in the grid cells */
+    justify-items: center; /* Center items horizontally in the grid cells */
+    margin-bottom: 10px; /* Space below the container */
+    padding: 20px; /* Space inside the box, between content and border */
+    border: thick solid #0056b3; /* Solid border with thickness and color */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    background-color: #f9f9f9; /* Light background color */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.no-arrow {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    appearance: none;
+    text-align: center;
+}
+
+.no-arrow::-webkit-inner-spin-button, 
+.no-arrow::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center; /* Centers the table horizontally */
+    margin: 20px; /* Optional: Adds some margin around the container */
+}
+
+.mining-encounter-table{
+    display: flex;
+    justify-content: center; /* Centers the table horizontally */
+    margin: 20px; /* Optional: Adds some margin around the container */
+}
+
+.mining-encounter-table tbody {
+    border-collapse: collapse;
+    width: auto; /* Adjust based on your needs */
+    justify-content: center;
+}
+
+/* Centering text within table cells */
+.mining-encounter-table td {
+    text-align: center;
+    border: 1px solid black; /* Optional: Adds a border for clarity */
+}
+
+.cathead{
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+}
+.redlabel{
+    background: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; /* Adjust size as needed */
+    border-radius: 15px;
+    color: white;
+}
+.bluelabel{
+    background: blue;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; /* Adjust size as needed */
+    border-radius: 15px;
+    color: white;
+}
+.greenlabel{
+    background: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; /* Adjust size as needed */
+    border-radius: 15px;
+    color: white;
+}
+.prismlabel{
+    background: purple;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; /* Adjust size as needed */
+    border-radius: 15px;
+    color: white;
+}
+.palelabel{
+    background: pink;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; /* Adjust size as needed */
+    border-radius: 15px;
+    color: white;
+}
+.darklabel{
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; /* Adjust size as needed */
+    border-radius: 15px;
+    color: white;
+
+}
+.lavalabel{
+    background-color: darkred;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; /* Adjust size as needed */
+    border-radius: 15px;
+    color: white;
+}
+.rainbowlabel {
+    background: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet
+    );
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; /* Adjust size as needed */
+    border-radius: 15px;
+    color: white;
+}
+.goldlabel{
+    background: gold;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; /* Adjust size as needed */
+    border-radius: 15px;
+    color: white;
+}
+
+.redrockclass{
+    color: red;
+    font-weight: bold;
+}
+.bluerockclass{
+    color: blue;
+    font-weight: bold;
+}
+.greenrockclass{
+    color: green;
+    font-weight: bold;
+}
+.prismrockclass{
+    color: purple;
+    font-weight: bold;
+}
+.palerockclass{
+    color: pink;
+    font-weight: bold;
+}
+.darkrockclass{
+    color: black;
+    font-weight: bold;
+}
+.lavarockclass{
+    color: darkred;
+    font-weight: bold;
+}
+.rainbowrockclass{
+    background: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.goldrockclass{
+    color:gold;
+    font-weight: bold;
+}
+
+.tooltip {
+    position: fixed; /* Use fixed positioning */
+    display: none; /* Hide by default */
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    z-index: 10;
+    white-space: nowrap;
+    max-width: 400px; /* Adjust as needed */
+    max-height: 300px; /* Adjust as needed */
+    overflow: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+.tooltip img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.location-name {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip-show {
+    display: block; /* Show tooltip */
+}
+
+.pokemon-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-table th,
+.pokemon-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.pokemon-table th {
+    background-color: #f4f4f4;
+}
+
+.pokemon-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon {
+    margin: 5px;
+    text-align: center;
+}
+
+.pokemon img {
+    width: 86px;
+    height: 86px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pokemon span {
+    display: block;
+    margin-top: 5px;
+}
+
+.mid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    width: 100%; /* Full width of the parent element */
+    justify-items: center; /* Center items horizontally in the grid cells */
+    margin-bottom: 10px; /* Space below the container */
+    padding: 20px; /* Space inside the box, between content and border */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    background-color: #f9f9f9; /* Light background color */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.rock-red{
+    color: red;
+    font-weight: bold;
+}
+.rock-blue{
+    color: blue;
+    font-weight: bold;
+}
+.rock-green{
+    color: green;
+    font-weight: bold;
+}
+.rock-prism{
+    color: purple;
+    font-weight: bold;
+}
+.rock-pale{
+    color: pink;
+    font-weight: bold;
+}
+.rock-dark{
+    color: black;
+    font-weight: bold;
+}
+.rock-lava{
+    color: darkred;
+    font-weight: bold;
+}
+.rock-rainbow{
+    background: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.rock-gold{
+    color:gold;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+#two-tables-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a softer look */
+    margin: 20px 0;
+}
+
+/* Container for each table */
+.two-table-container {
+    flex: 1; /* Ensure both containers take equal width */
+    margin: 0 10px; /* Spacing between tables */
+    padding: 10px;
+    background-color: #fff; /* White background for tables */
+    border: 1px solid #ddd; /* Light border around the table */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Table styling */
+.two-data-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+    text-align: center;
+}
+
+.two-data-table th, .two-data-table td {
+    border: 1px solid #ddd; /* Light border for table cells */
+    padding: 10px; /* Cell padding */
+    text-align: center; /* Align text to the left */
+}
+
+.two-data-table th {
+    background-color: #f4f4f4; /* Slightly darker background for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+
+.two-data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors */
+    text-align: center;
+}
+#data-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+}
+
+#data-table th, #data-table td {
+    border: 1px solid #ddd; /* Light border for table cells */
+    padding: 10px; /* Cell padding */
+    text-align: center; /* Center text in both headers and cells */
+}
+
+#data-table th {
+    background-color: #f4f4f4; /* Slightly darker background for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+
+#data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors */
+}
+
+/* Header Styling */
+#main-header {
+    background-color: #f8f9fa; /* Light background color for the header */
+    padding: 10px 0; /* Vertical padding for header */
+    border-bottom: 1px solid #dee2e6; /* Bottom border for separation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 15px; /* Space between buttons */
+}
+
+/* General button styling for header buttons */
+.header-button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Top and bottom padding, left and right padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+}
+
+/* Button hover and active states */
+.header-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.header-button:active {
+    background-color: #004085; /* Even darker shade when button is pressed */
+    transform: scale(0.95); /* Slightly shrink button when pressed */
+}
+
+/* Specific styling for back button */
+#back-button {
+    background-color: #28a745; /* Different color for the back button */
+}
+
+#back-button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+#back-button:active {
+    background-color: #1e7e34; /* Even darker shade when button is pressed */
+}

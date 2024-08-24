@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rates and Calculations</title>
+    <link rel="stylesheet" href="ratesstyles.css">
+    <header id="main-header">
+        <div class="header-container">
+            <button class="header-button" id="back-button">Back to Home</button>
+            <button class="header-button" id="rates-button">Rates and Calculations</button>
+            <button class="header-button" id="spawn-button">Spawn Locator</button>
+            <button class="header-button" id="poke-button">Pokemon Data</button>
+            <button class="header-button" id="mine-button">Mining Guide</button>
+            <button class="header-button" id="loc-button">Location Guide</button>
+            <button class="header-button" id="evloc-button">EV Location Guide</button>
+        </div>
+    </header>
+</head>
+<body>
+    <h1 class="section-header"> Encounter Rates and Modifiers</h1>
+    <div class="container">
+        <!-- Main Content Layout -->
+        <div class="main-content">
+            <!-- Encounter Rates Table -->
+            <div class="table-container">
+                <h1>Encounter Rates</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Boost</th>
+                            <th>Type</th>
+                            <th>Impact</th>
+                            <th>Increase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Encounter Rates Data -->
+                        <tr class="encounter">
+                            <td>Gold Membership (GM)</td>
+                            <td>Player Boost</td>
+                            <td>Encounter</td>
+                            <td>50%</td>
+                        </tr>
+                        <tr class="encounter">
+                            <td>Rare Charm</td>
+                            <td>Held Item</td>
+                            <td>Encounter</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr class="encounter">
+                            <td>Hunter Charm</td>
+                            <td>Held Item</td>
+                            <td>Encounter</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr class="encounter">
+                            <td>Honey</td>
+                            <td>Area Boost</td>
+                            <td>Encounter</td>
+                            <td>25%</td>
+                        </tr>
+                        <tr class="encounter">
+                            <td>Swarm</td>
+                            <td>Area Boost</td>
+                            <td>Encounter</td>
+                            <td>25%</td>
+                        </tr>
+                        <tr class="encounter">
+                            <td>Altering Cave</td>
+                            <td>Location Boost</td>
+                            <td>Encounter</td>
+                            <td>30%</td>
+                        </tr>
+                        <tr class="legendary">
+                            <td>Enhanced Items</td>
+                            <td>Held Item</td>
+                            <td>Legendary Only</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr class="legendary">
+                            <td>Swarm</td>
+                            <td>Area Boost</td>
+                            <td>Legendary Only</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr class="legendary">
+                            <td>Event Map</td>
+                            <td>Location Boost</td>
+                            <td>Legendary Only</td>
+                            <td>25%</td>
+                        </tr>
+                        <tr class="legendary">
+                            <td>Legendary x2</td>
+                            <td>Server Boost</td>
+                            <td>Legendary Only</td>
+                            <td>200%</td>
+                        </tr>
+                        <tr class="shiny">
+                            <td>Gold Membership (GM)</td>
+                            <td>Player Boost</td>
+                            <td>Shiny</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr class="shiny">
+                            <td>Shiny Charm</td>
+                            <td>Held Item</td>
+                            <td>Shiny</td>
+                            <td>25%</td>
+                        </tr>
+                        <tr class="shiny">
+                            <td>Shiny Egg</td>
+                            <td>Held Item</td>
+                            <td>Shiny</td>
+                            <td>25%</td>
+                        </tr>
+                        <tr class="shiny">
+                            <td>Shiny Lure</td>
+                            <td>Area Boost</td>
+                            <td>Shiny</td>
+                            <td>25%</td>
+                        </tr>
+                        <tr class="shiny">
+                            <td>Swarm</td>
+                            <td>Area Boost</td>
+                            <td>Shiny</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr class="shiny">
+                            <td>Shiny x2</td>
+                            <td>Server Boost</td>
+                            <td>Shiny</td>
+                            <td>200%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Modifier Section -->
+            <div class="modifier-section">
+                <h1>Modifiers</h1>
+                <div class="checkbox-container">
+                    <div class="box select-one">
+                        <h3>Select 1</h3>
+                        <input type="checkbox" id="shiny-charm-checkbox"> Shiny Charm / Egg<br>
+                        <input type="checkbox" id="rare-charm-checkbox"> Rare Charm<br>
+                        <input type="checkbox" id="hunter-charm-checkbox"> Hunter Charm<br>
+                        <input type="checkbox" id="enhanced-checkbox"> Enhanced Legendary Item
+                    </div>
+                    <div class="box select-all">
+                        <h3>Select All That Apply</h3>
+                        <input type="checkbox" id="gm-checkbox"> Gold Membership (GM)<br>
+                        <input type="checkbox" id="swarm-checkbox"> Swarm<br>
+                        <input type="checkbox" id="honey-checkbox"> Honey<br>
+                        <input type="checkbox" id="altering-checkbox"> Altering Cave<br>
+                        <input type="checkbox" id="legend2-checkbox"> Legend x2<br>
+                        <input type="checkbox" id="shiny-lure-checkbox"> Shiny Lure<br>
+                        <input type="checkbox" id="shiny2-checkbox"> Shiny 2
+                    </div>
+                </div>
+
+                <!-- Modifier Table -->
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Base Rates</th>
+                                <th>Shiny</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data-table">
+                            <!-- Modifier Data -->
+                            <tr>
+                                <td>Common</td>
+                                <td><input type="number" value="1" id="common-base" readonly></td>
+                                <td><input type="number" value="8192" id="common-shiny" class="no-arrow" readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Uncommon</td>
+                                <td><input type="number" value="8" id="uncommon-base" class="no-arrow" readonly></td>
+                                <td><input type="number" value="65536" id="uncommon-shiny" class="no-arrow" readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Rare</td>
+                                <td><input type="number" value="60" id="rare-base" class="no-arrow" readonly></td>
+                                <td><input type="number" value="491520" id="rare-shiny" class="no-arrow" readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Very Rare</td>
+                                <td><input type="number" value="600" id="veryRare-base" class="no-arrow" readonly></td>
+                                <td><input type="number" value="4915200" id="veryRare-shiny" class="no-arrow" readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Extremely Rare</td>
+                                <td><input type="number" value="5000" id="extremelyRare-base" class="no-arrow" readonly></td>
+                                <td><input type="number" value="40960000" id="extremelyRare-shiny" class="no-arrow" readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Legendary</td>
+                                <td><input type="number" value="125000" id="legendary-base" class="no-arrow" readonly></td>
+                                <td><input type="number" value="1024000000" id="legendary-shiny" class="no-arrow" readonly></td>
+                            </tr>
+                            <tr>
+                                <td>Event Legendary</td>
+                                <td><input type="number" value="100000" id="eventLegendary-base" class="no-arrow" readonly></td>
+                                <td><input type="number" value="819200000" id="eventLegendary-shiny" class="no-arrow" readonly></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+
+    <div class="calculator-section">
+        <div class ="experience-calculator">
+        <h1 class="section-header">Experience and Daycare Calculator</h1>
+        <div class="calculator-container">
+            <h1>Experience Calculator</h1>
+            <form>
+                <div class="form-group">
+                    <label for="start-level">Start Level:</label>
+                    <input type="text" id="start-level" name="start-level">
+                </div>
+                <div class="form-group">
+                    <label for="end-level">End Level:</label>
+                    <input type="text" id="end-level" name="end-level">
+                </div>
+                <button id="sum-button" type="button">Calculate Experience</button>
+            </form>
+            <div id="result1" class="results"></div>
+            <h1>Daycare Cost Calculator</h1>
+            <form>
+                <div class="form-group">
+                    <label for="factor">Daycare Cost Per 100k EXP:</label>
+                    <input type="number" id="factor" name="factor" value="1">
+                </div>
+                <button id="multiply-button" type="button" disabled>Calculate Full Cost</button>
+            </form>
+            <div id="result2" class="results"></div>
+        </div>
+    </div>
+
+    <div class ="fishing-calculator">
+        <h1 class="section-header">Fishing Experience Calculator</h1>
+        <div class="calculator-container">
+            <h1> Fishing Experience Calculator</h1>
+            <form>
+                <div class="form-group">
+                    <label for="fstart-level">Start Level:</label>
+                    <input type="text" id="fstart-level" name="fstart-level">
+                </div>
+                <div class="form-group">
+                    <label for="fend-level">End Level:</label>
+                    <input type="text" id="fend-level" name="fend-level">
+                </div>
+                <button id="fsum-button" type="button">Calculate Experience</button>
+            </form>
+            <div id="fresult1" class="results2"></div>
+        </div>
+    </div>
+
+    <div class ="hiddenpower-calculator">
+        <h1 class="section-header">Hidden Power Calculator</h1>
+        <div class="hp-calculator-container">
+            <div class="stats">
+                <div class="stat-row">
+                    <label for="hp">HP:</label>
+                    <input type="number" id="hp" min="0" max="31" value="31">
+                    <select id="hp-odd-even">
+                        <option value="o">Odd</option>
+                        <option value="e">Even</option>
+                    </select>
+                </div>
+                <div class="stat-row">
+                    <label for="atk">Attack:</label>
+                    <input type="number" id="atk" min="0" max="31" value="31">
+                    <select id="atk-odd-even">
+                        <option value="o">Odd</option>
+                        <option value="e">Even</option>
+                    </select>
+                </div>
+                <div class="stat-row">
+                    <label for="def">Defense:</label>
+                    <input type="number" id="def" min="0" max="31" value="31">
+                    <select id="def-odd-even">
+                        <option value="o">Odd</option>
+                        <option value="e">Even</option>
+                    </select>
+                </div>
+                <div class="stat-row">
+                    <label for="sp-atk">Special Attack:</label>
+                    <input type="number" id="sp-atk" min="0" max="31" value="31">
+                    <select id="sp-atk-odd-even">
+                        <option value="o">Odd</option>
+                        <option value="e">Even</option>
+                    </select>
+                </div>
+                <div class="stat-row">
+                    <label for="sp-def">Special Defense:</label>
+                    <input type="number" id="sp-def" min="0" max="31" value="31">
+                    <select id="sp-def-odd-even">
+                        <option value="o">Odd</option>
+                        <option value="e">Even</option>
+                    </select>
+                </div>
+                <div class="stat-row">
+                    <label for="speed">Speed:</label>
+                    <input type="number" id="speed" min="0" max="31" value="31">
+                    <select id="speed-odd-even">
+                        <option value="o">Odd</option>
+                        <option value="e">Even</option>
+                    </select>
+                </div>
+                <button id="calculate">Calculate</button>
+            </div>
+            
+            <div id="result-area" class="result-area">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Element</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="element">-</td>
+                        </tr>
+                        <tr>
+                            <th>Fire</th>
+                        </tr>
+                        <tr>
+                            <td id="fire">-</td>
+                        </tr>
+                        <tr>
+                            <th>Ice</th>
+                        </tr>
+                        <tr>
+                            <td id="ice">-</td>
+                        </tr>
+                        <tr>
+                            <th>Ground</th>
+                        </tr>
+                        <tr>
+                            <td id="ground">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+<!---New code here-->
+
+
+
+<!------------------->
+
+    <script src="ratesscript.js"></script>
+</body>
+</html>
