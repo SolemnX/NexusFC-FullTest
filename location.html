@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Location Search</title>
+    <link rel="stylesheet" href="locationstyles.css">
+    <header id="main-header">
+        <div class="header-container">
+            <button class="header-button" id="back-button">Back to Home</button>
+            <button class="header-button" id="rates-button">Rates and Calculations</button>
+            <button class="header-button" id="spawn-button">Spawn Locator</button>
+            <button class="header-button" id="poke-button">Pokemon Data</button>
+            <button class="header-button" id="mine-button">Mining Guide</button>
+            <button class="header-button" id="loc-button">Location Guide</button>
+        </div>
+    </header>
+</head>
+<body>
+    <div class="container">
+        <label for="location-search">Select Location:</label>
+        <div class="search-wrapper">
+            <input type="text" id="location-search" placeholder="Search locations..." list="locations-list">
+            <datalist id="locations-list">
+                <!-- Options will be populated by JavaScript -->
+            </datalist>
+        </div>
+    </div>
+    <div id="location-name">Location Name</div>
+   <div class="top-container">
+    <div>
+        <img id="location-image" src="" alt="Location Image">
+    </div>
+        <div id="drops-table-container">
+            <!-- Drops table will be dynamically added here -->
+        </div>
+    </div>
+
+    <div id="tables-container">
+        <div id="land-table">
+            <h2>Land EV Guide</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rarity</th>
+                        <th>HP</th>
+                        <th>Attack</th>
+                        <th>Defense</th>
+                        <th>SpAtk</th>
+                        <th>SpDef</th>
+                        <th>Speed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Land table rows will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+        <div id="fishing-table">
+            <h2>Fishing EV Guide</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rarity</th>
+                        <th>HP</th>
+                        <th>Attack</th>
+                        <th>Defense</th>
+                        <th>SpAtk</th>
+                        <th>SpDef</th>
+                        <th>Speed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Fishing table rows will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+        <div id="surfing-table">
+            <h2>Surfing EV Guide</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rarity</th>
+                        <th>HP</th>
+                        <th>Attack</th>
+                        <th>Defense</th>
+                        <th>SpAtk</th>
+                        <th>SpDef</th>
+                        <th>Speed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Surfing table rows will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div id="pokemon-list-container">
+        <!-- Pokémon table will be populated here -->
+        <h3>Pokémon List</h3>
+        <table id="pokemon-table">
+            <thead>
+                <tr>
+                    <th>Pokemon</th>
+                    <th>Image</th>
+                    <th>Possible Drop</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Pokémon rows will be populated by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script type="module" src="locationscript.js"></script>
+</body>
+</html>

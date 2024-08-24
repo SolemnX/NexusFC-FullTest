@@ -97,6 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pokeButton = document.getElementById('poke-button');
     const mineButton = document.getElementById('mine-button');
     const backButton = document.getElementById('back-button');
+    const locButton = document.getElementById('loc-button');
   
     if (ratesButton) {
         ratesButton.addEventListener('click', () => {
@@ -125,4 +126,9 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'index.html';
         });
     }
+    if (locButton) {
+      locButton.addEventListener('click', () => {
+          window.location.href = 'location.html';
+      });
+  }
   });
