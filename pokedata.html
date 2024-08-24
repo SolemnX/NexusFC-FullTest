@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokémon Data Filter</title>
+    <link rel="stylesheet" href="pokedatastyles.css">
+    <div>
+        <button id="back-button">Back to Home</button>
+        <button id="rates-button">Go to Rates and Calculations</button>
+        <button id="spawn-button">Go to Spawn Locator</button>
+    </div>
+</head>
+<body>
+    <h1>Pokémon Data Filter</h1>
+<form id = "pokefilters">
+    <div class="filter-group">
+        <label for="pokemonFilter">Filter by Pokémon:</label>
+        <input type="text" id="pokemonFilter" name="pokemonFilter">
+    </div>
+</form>
+    <form id="filters">
+        <div class="type-ev-group filter-group">
+            <label for="typeFilter1">Filter by Type 1:</label>
+            <input type="text" id="typeFilter1" name="typeFilter1">
+        </div>
+    
+        <div class="type-ev-group filter-group">
+            <label for="typeFilter2">Filter by Type 2:</label>
+            <input type="text" id="typeFilter2" name="typeFilter2">
+        </div>
+    
+        <div class="type-ev-group filter-group">
+            <label for="evYieldFilter">Filter by EV Yield:</label>
+            <input type="text" id="evYieldFilter" name="evYieldFilter">
+        </div>
+    
+        <div class="ability-group filter-group">
+            <label for="ability1Filter">Filter by Ability 1:</label>
+            <input type="text" id="ability1Filter" name="ability1Filter">
+        </div>
+    
+        <div class="ability-group filter-group">
+            <label for="ability2Filter">Filter by Ability 2:</label>
+            <input type="text" id="ability2Filter" name="ability2Filter">
+        </div>
+    
+        <div class="ability-group filter-group">
+            <label for="hiddenAbilityFilter">Filter by Hidden Ability:</label>
+            <input type="text" id="hiddenAbilityFilter" name="hiddenAbilityFilter">
+        </div>
+    </form>
+    <div id="paginationControls" class="pagination-controls">
+        <button id="prevPage">Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextPage">Next</button>
+    </div>
+    <div id="pokemonDataContainer" class="pokemon-data-container"></div>
+   
+    <script type="module" src="pokedatascript.js"></script>
+</body>
+</html>

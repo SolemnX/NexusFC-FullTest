@@ -1,0 +1,146 @@
+.pokemon-data-container {
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width to prevent content from stretching too wide */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    text-align: center; /* Center content within */
+}
+
+
+#filters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+    gap: 20px; /* Spacing between items */
+    padding: 20px;
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 300 px;
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+#pokefilters {
+    gap: 20px; /* Spacing between items */
+    padding: 20px;
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 300 px;
+    margin: 0 auto; /* Center the form horizontally */
+}
+/* Make the first filter (Filter by Pokémon) span all columns */
+#pokemonFilter {
+    font-size: 3.5em; /* Make the text larger */
+}
+
+/* Group for types and EV yield */
+.type-ev-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Space between label and input */
+    flex: 1;
+}
+
+/* Group for abilities */
+.ability-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Space between label and input */
+    flex: 1;
+}
+
+/* Center align the content within each filter group */
+.filter-group label {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.filter-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Rounded edges */
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    font-size: 2.0em;
+    width: 100%; /* Make inputs fill container width */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #filters {
+        grid-template-columns: 1fr; /* Make all filters stack in a single column */
+    }
+}
+
+/* Ensure tables are centered */
+table {
+    margin: 0 auto 10px auto; /* Center horizontally */
+    width: auto; /* Ensure tables do not stretch unnecessarily */
+}
+
+.pokemon-card {
+    display: flex;
+    align-items: center; /* Align items to the top */
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.pokemon-info {
+    flex: 2;
+}
+
+.pokemon-sprites {
+    display: flex;
+    align-items: center; /* Center images vertically */
+    gap: 10px; /* Adjust spacing between sprites as needed */
+}
+
+.pokemon-sprites img {
+    display: block;
+    max-width: 250px; /* Adjust as needed */
+    height: auto;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+th, td {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 10px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}

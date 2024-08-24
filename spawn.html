@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Spawns Tracker</title>
+    <link rel="stylesheet" href="spawnstyles.css">
+</head>
+<body>
+
+    <h1>Pokémon Encounter Tracker</h1>
+
+    <input type="text" id="masterFilter" class="filter-input" placeholder="Master filter...">
+    <div class="table-wrapper">
+        <div class="table-container">
+            <table id="pokemonTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0)">Region</th>
+                        <th onclick="sortTable(1)">Location</th>
+                        <th onclick="sortTable(2)">Rarity</th>
+                        <th onclick="sortTable(3)">Type</th>
+                        <th onclick="sortTable(4)">Pokémon</th>
+                        <th onclick="sortTable(5)">Solo</th>
+                    </tr>
+                    <tr>
+                        <th><input type="text" id="regionFilter" class="filter-input" placeholder="Filter by Region"></th>
+                        <th><input type="text" id="locationFilter" class="filter-input" placeholder="Filter by Location"></th>
+                        <th><input type="text" id="rarityFilter" class="filter-input" placeholder="Filter by Rarity"></th>
+                        <th><input type="text" id="typeFilter" class="filter-input" placeholder="Filter by Type"></th>
+                        <th><input type="text" id="pokemonFilter" class="filter-input" placeholder="Filter by Pokémon"></th>
+                        <th><input type="text" id="soloFilter" class="filter-input" placeholder="Filter by Solo"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table rows will be populated dynamically by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="pagination-controls">
+        <button id="prevPage" onclick="changePage(-1)">Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextPage" onclick="changePage(1)">Next</button>
+    </div>
+    <div>
+        <button id="back-button">Back to Home</button>
+        <button id="rates-button">Go to Rates and Calculations</button>
+        <button id="poke-button">Go to Pokemon Data</button>
+    </div>
+
+    <script type="module" src="spawnscript.js"></script>
+</body>
+</html>
