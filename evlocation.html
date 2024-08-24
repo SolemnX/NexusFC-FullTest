@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Location Guide</title>
+    <link rel="stylesheet" href="evlocationstyles.css">
+    <header id="main-header">
+        <div class="header-container">
+            <button class="header-button" id="back-button">Back to Home</button>
+            <button class="header-button" id="rates-button">Rates and Calculations</button>
+            <button class="header-button" id="spawn-button">Spawn Locator</button>
+            <button class="header-button" id="poke-button">Pokemon Data</button>
+            <button class="header-button" id="mine-button">Mining Guide</button>
+            <button class="header-button" id="loc-button">Location Guide</button>
+            <button class="header-button" id="evloc-button">EV Location Guide</button>
+        </div>
+    </header>
+</head>
+<body>
+    <h2>EV Location Calculator</h2>
+    <div class="container">
+
+        <div class="filters-container">
+            <div class="filter-box">
+                <label for="region-filter">Region:</label>
+                <div id="region-filter"></div>
+            </div>
+
+            <div class="filter-box">
+                <label for="rarity-filter">Rarity:</label>
+                <div id="rarity-filter"></div>
+            </div>
+
+            <div class="filter-box">
+                <label for="type-filter">Type:</label>
+                <div id="type-filter"></div>
+            </div>
+
+            <div class="filter-box">
+                <label for="location-filter">Location:</label>
+                <input type="text" id="location-filter" placeholder="Search Location">
+            </div>
+        <div class="ev-filters-container">
+            <div class="filter-box numeric-filter">
+                <label for="hp-value">HP:</label>
+                <input type="number" id="hp-value" placeholder="Value">
+                <select id="hp-comparison" class="comparison-select">
+                    <option value="lt">Less than</option>
+                    <option value="gt">Greater than</option>
+                    <option value="eq">Equal to</option>
+                </select>
+            </div>
+
+            <div class="filter-box numeric-filter">
+                <label for="attack-value">Attack:</label>
+                <input type="number" id="attack-value" placeholder="Value">
+                <select id="attack-comparison" class="comparison-select">
+                    <option value="lt">Less than</option>
+                    <option value="gt">Greater than</option>
+                    <option value="eq">Equal to</option>
+                </select>
+            </div>
+
+            <div class="filter-box numeric-filter">
+                <label for="defense-value">Defense:</label>
+                <input type="number" id="defense-value" placeholder="Value">
+                <select id="defense-comparison" class="comparison-select">
+                    <option value="lt">Less than</option>
+                    <option value="gt">Greater than</option>
+                    <option value="eq">Equal to</option>
+                </select>
+            </div>
+
+            <div class="filter-box numeric-filter">
+                <label for="spatk-value">SpAtk:</label>
+                <input type="number" id="spatk-value" placeholder="Value">
+                <select id="spatk-comparison" class="comparison-select">
+                    <option value="lt">Less than</option>
+                    <option value="gt">Greater than</option>
+                    <option value="eq">Equal to</option>
+                </select>
+            </div>
+
+            <div class="filter-box numeric-filter">
+                <label for="spdef-value">SpDef:</label>
+                <input type="number" id="spdef-value" placeholder="Value">
+                <select id="spdef-comparison" class="comparison-select">
+                    <option value="lt">Less than</option>
+                    <option value="gt">Greater than</option>
+                    <option value="eq">Equal to</option>
+                </select>
+            </div>
+
+            <div class="filter-box numeric-filter">
+                <label for="speed-value">Speed:</label>
+                <input type="number" id="speed-value" placeholder="Value">
+                <select id="speed-comparison" class="comparison-select">
+                    <option value="lt">Less than</option>
+                    <option value="gt">Greater than</option>
+                    <option value="eq">Equal to</option>
+                </select>
+            </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="show-filtered">Show Filtered Results</button>
+            <button id="show-aggregated">Show Aggregated Results</button>
+        </div>
+
+        <div class="results" id="filtered-results-container" style="display: none;">
+            <h2>Filtered Results</h2>
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Region</th>
+                        <th>Location</th>
+                        <th>Rarity</th>
+                        <th>Type</th>
+                        <th>HP</th>
+                        <th>Attack</th>
+                        <th>Defense</th>
+                        <th>SpAtk</th>
+                        <th>SpDef</th>
+                        <th>Speed</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div class="results" id="aggregated-results-container" style="display: none;">
+            <h2>Aggregated Results</h2>
+            <table id="aggregated-results-table">
+                <thead>
+                    <tr>
+                        <th>Region</th>
+                        <th>Location</th>
+                        <th>Type</th>
+                        <th>Total HP</th>
+                        <th>Total Attack</th>
+                        <th>Total Defense</th>
+                        <th>Total SpAtk</th>
+                        <th>Total SpDef</th>
+                        <th>Total Speed</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script type="module" src="evlocscript.js"></script>
+</body>
+</html>

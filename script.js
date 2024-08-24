@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const mineButton = document.getElementById('mine-button');
     const backButton = document.getElementById('back-button');
     const locButton = document.getElementById('loc-button');
+    const evlocButton = document.getElementById('evloc-button');
   
     if (ratesButton) {
         ratesButton.addEventListener('click', () => {
@@ -38,4 +39,9 @@ document.addEventListener('DOMContentLoaded', () => {
           window.location.href = 'location.html';
       });
   }
+  if (evlocButton) {
+    evlocButton.addEventListener('click', () => {
+        window.location.href = 'evlocation.html';
+    });
+}
   });
