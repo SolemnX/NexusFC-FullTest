@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prize List</title>
+    <link rel="stylesheet" href="/css/itemprizestyles.css">
+    <script src="scripts/header.js"></script> <!-- Script to load header -->
+    <script src="scripts/navigation.js"></script> <!-- Script for button navigation -->
+</head>
+<body>
+    <div class="container">
+        <h1>Prize List</h1>
+
+        <!-- Master Filter -->
+        <input type="text" id="masterFilter" placeholder="Master Filter">
+
+        <!-- Dropdown Filters -->
+        <div class="dropdowns">
+            <select id="prizelocFilter">
+                <option value="">Filter by Prize Location</option>
+            </select>
+
+            <select id="categoryFilter">
+                <option value="">Filter by Category</option>
+            </select>
+        </div>
+
+        <!-- Table -->
+        <table id="costTable">
+            <thead>
+                <tr class="shiny-head">
+                    <th>Item</th>
+                    <th>Category</th>
+                    <th>Prize Location</th>
+                    <th>Cost</th>
+                    <th>Currency</th>
+                </tr>
+            </thead>
+            <tbody class ="table-values">
+                <!-- Table rows will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script type="module" src="scripts/itemprizescript.js"></script>
+</body>
+</html>

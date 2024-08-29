@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ratesButton = document.getElementById('rates-button');
     const spawnButton = document.getElementById('spawn-button');
     const pokeButton = document.getElementById('poke-button');
+    const itemprizeButton = document.getElementById('itemprize-button');
     const mineButton = document.getElementById('mine-button');
     const backButton = document.getElementById('back-button');
     const locButton = document.getElementById('loc-button');
@@ -27,6 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
         pokeButton.addEventListener('click', () => {
             console.log("Poke button clicked.");
             window.location.href = 'pokedata.html';
+        });
+    }
+
+    if (itemprizeButton) {
+        itemprizeButton.addEventListener('click', () => {
+            console.log("ItemPrize button clicked.");
+            window.location.href = 'itemprize.html';
         });
     }
 
