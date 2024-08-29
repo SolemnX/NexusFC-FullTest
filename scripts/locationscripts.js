@@ -1,7 +1,7 @@
 
-import {Data2 } from './fullspawn.js';
-import {data } from './evlocations.js';
-import {drops } from './dropslocations.js';
+import {Data2 } from '../dbs/fullspawn.js';
+import {data } from '../dbs/evlocations.js';
+import {drops } from '../dbs/dropslocations.js';
 
 const rarityLevels = ['*Common', '*Uncommon', '*Rare', '*Very Rare', '*Extremely Rare', '*Legendary'];
 const types = ['Land', 'Fishing', 'Surfing'];

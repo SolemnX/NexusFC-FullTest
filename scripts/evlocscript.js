@@ -1,4 +1,4 @@
-import {data } from './evlocations.js';
+import {data } from '../dbs/evlocations.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     const regionFilter = document.getElementById('region-filter');

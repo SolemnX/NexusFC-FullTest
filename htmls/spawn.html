@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Spawns Tracker</title>
+    <link rel="stylesheet" href="css/spawnstyles.css">
+    <script src="scripts/header.js"></script> <!-- Script to load header -->
+    <script src="scripts/navigation.js"></script> <!-- Script for button navigation -->
+    <div id="header-container"></div>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pokemon Data Filter</h1>
+
+        <div class="filters">
+            <label for="region">Region:</label>
+            <select id="region">
+                <option value="">Select Region</option>
+            </select>
+
+            <label for="location">Location:</label>
+            <select id="location">
+                <option value="">Select Location</option>
+            </select>
+
+            <label for="rarity">Rarity:</label>
+            <select id="rarity">
+                <option value="">Select Rarity</option>
+            </select>
+
+            <label for="type">Type:</label>
+            <select id="type">
+                <option value="">Select Type</option>
+            </select>
+
+            <label for="pokemon">Pokemon:</label>
+            <select id="pokemon">
+                <option value="">Select Pokemon</option>
+            </select>
+
+            <label for="solo">Solo:</label>
+            <select id="solo">
+                <option value="">Select Solo</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <label for="ev_yield">EV Yield:</label>
+            <select id="ev_yield">
+                <option value="">Select EV Yield</option>
+            </select>
+
+            <label for="drops">Drops:</label>
+            <input type="text" id="drops" placeholder="Search drops">
+        </div>
+
+        <div class="buttons">
+            <button id="apply-filters">Apply Filters</button>
+            <button id="reset-filters">Reset</button>
+            <button id="toggle-view">Switch to Table View</button>
+        </div>
+
+        <div class="controls">
+            <h2>Note: If using Card View, click on the Pokemon or Location Image to expand them</h2>
+        </div>
+    
+        <div id="card-view" class="results">
+            <!-- Card view results will be injected here -->
+        </div>
+    
+        <div id="table-view" class="table-view" style="display: none;">
+            <!-- Table view results will be injected here -->
+        </div>
+    </div>
+    <script type="module" src="scripts/spawnscript.js"></script>
+</body>
+</html>
