@@ -49,7 +49,3 @@ import {items } from '../dbs/item.js';
   // Initial render (table hidden initially)
   itemsTable.classList.add('hidden');
 
-  // Event listeners
-document.getElementById('itemFilter').addEventListener('change', updateTables);
-document.getElementById('materialFilter').addEventListener('change', updateTables);
-
