@@ -50,7 +50,6 @@ import {items } from '../dbs/item.js';
   itemsTable.classList.add('hidden');
 
   // Event listeners
-document.getElementById('search').addEventListener('input', updateTables);
 document.getElementById('itemFilter').addEventListener('change', updateTables);
 document.getElementById('materialFilter').addEventListener('change', updateTables);
 
