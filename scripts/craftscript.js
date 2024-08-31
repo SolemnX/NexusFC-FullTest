@@ -107,7 +107,7 @@ document.getElementById('search').addEventListener('input', updateTables);
 document.getElementById('itemFilter').addEventListener('change', updateTables);
 document.getElementById('materialFilter').addEventListener('change', updateTables);
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded2', () => {
   const itemButton = document.getElementById('item-button');
   const craftButton = document.getElementById('craft-button');
   const prizeButton = document.getElementById('prize-button');
