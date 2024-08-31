@@ -49,7 +49,7 @@ import {items } from '../dbs/item.js';
   // Initial render (table hidden initially)
   itemsTable.classList.add('hidden');
 
-  document.addEventListener('DOMContentLoaded2', () => {
+  document.addEventListener('DOMContentLoaded', () => {
     const itemButton = document.getElementById('item-button');
     const craftButton = document.getElementById('craft-button');
     const prizeButton = document.getElementById('prize-button');
