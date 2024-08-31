@@ -1,4 +1,4 @@
-import { pokemonData } from './pokemondata.js';
+import { pokemonData } from '../dbs/pokemondata.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     const pokemonFilter = document.getElementById('pokemonFilter');
