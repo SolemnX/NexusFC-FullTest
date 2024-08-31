@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <button class="header-button" id="rates-button">Rates and Calculations</button>
                         <button class="header-button" id="spawn-button">Spawn Locator</button>
                         <button class="header-button" id="poke-button">Pokemon Data</button>
-                        <button class="header-button" id="itemprize-button">Item and Prizes</button>
+                        <button class="header-button" id="itemprize-button">Item-Prize-Craft</button>
                         <button class="header-button" id="mine-button">Mining Guide</button>
                         <button class="header-button" id="loc-button">Location Guide</button>
                         <button class="header-button" id="evloc-button">EV Location Guide</button>

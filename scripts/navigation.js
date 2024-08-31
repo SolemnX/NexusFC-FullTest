@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (itemprizeButton) {
         itemprizeButton.addEventListener('click', () => {
             console.log("ItemPrize button clicked.");
-            window.location.href = 'itemprize.html';
+            window.location.href = 'item.html';
         });
     }
 
