@@ -66,7 +66,28 @@ document.addEventListener("DOMContentLoaded", function() {
     initializeFilters();
 });
 
-// Event listeners
-document.getElementById('search').addEventListener('input', updateTables);
-document.getElementById('itemFilter').addEventListener('change', updateTables);
-document.getElementById('materialFilter').addEventListener('change', updateTables);
+document.addEventListener('DOMContentLoaded2', () => {
+    const itemButton = document.getElementById('item-button');
+    const craftButton = document.getElementById('craft-button');
+    const prizeButton = document.getElementById('prize-button');
+  
+  
+    if (itemButton) {
+        itemButton.addEventListener('click', () => {
+            window.location.href = 'item.html';
+        });
+    }
+  
+    if (craftButton) {
+      craftButton.addEventListener('click', () => {
+          window.location.href = 'craft.html';
+      });
+  }
+  
+  if (prizeButton) {
+    prizeButton.addEventListener('click', () => {
+        window.location.href = 'prize.html';
+    });
+  }
+  
+  });
